@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aora
 
-## Getting Started
+<details>
+<summary>Table of Contents</summary>
 
-First, run the development server:
+1. 👋 [About The Project](#about-the-project)
+2. ⚙ [Tech Stack](#tech-stack)
+3. 📲 [Features](#features)
+7. 🪪 [License](#license)
+8. 📞 [Contact](#contact)
+9. 🌟 [Credits](#credits)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</details>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 👋 About the Project
 
-## Learn More
+This is my official portfolio website! See below for features and other info.
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙ Built With
+* TypeScript 
+* React (Next.js)
+* Tailwind CSS
+* Framer Motion
+* React Email & Resend
+* Vercel Hosting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📲 Features and Sections
+👉 **Header:** A sleek, dynamic header at the top that controls page navigation and changes with each section.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+👉 **Intro:** Features a profile picture, bouncing text, a waving hand animation, and quick links for contact, resume download, and access to GitHub and LinkedIn accounts.   
 
-## Deploy on Vercel
+👉 **About Me:** Highlights my journey into development, my strengths, and my interests beyond coding.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 **My Projects:** Showcases my top projects with titles, descriptions, tech stacks, and snapshots. Hover effects change the background color and rotate snapshots. Each project links to the deployed site or relevant information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+👉 **Skills:** Lists my skills, including languages, frameworks, databases, and other non-technical skills.
+
+👉 **Experience:** Utilizes React-Vertical-Timeline to present my relevant experience in a sleek, linear progression, with inherent transition animations that need troubleshooting.
+
+👉 **Contact:** Uses React-Email to connect a form for sending customized email messages directly to my inbox.
+
+👉 **React Hot Toast:** Triggers a loading animation in button upon submitting the React-Email form and uses React Hot Toast to display success and error messages.
+
+👉 **Framer-Motion Animations:** Enhances user experience by making the app highly interactive with smooth animations.  
+
+👉 **Dark-Mode:** Allows users to toggle between light and dark modes, with localStorage saving user preferences.
+
+👉 **Responsiveness:** Ensures smooth performance and adaptability across various devices and screen sizes for a consistent user experience.  
+
+
+## 🪪 License
+This project is licensed under the MIT License
+
+## 📞 Contact
+Kolby Kiernan: kolbykiernan@gmail.com    
+Project Link: [https://kolbykiernan.vercel.app/](https://kolbykiernan.vercel.app/)
+
+## 🌟 Credits
+* Inspired by [Byte Grad]([https://github.com/adrianhajdin](https://github.com/ByteGrad))
+
+
