@@ -1,4 +1,4 @@
-# Aora
+# Portfolio Website
 
 <details>
 <summary>Table of Contents</summary>
@@ -6,9 +6,9 @@
 1. 👋 [About The Project](#about-the-project)
 2. ⚙ [Tech Stack](#tech-stack)
 3. 📲 [Features](#features)
-7. 🪪 [License](#license)
-8. 📞 [Contact](#contact)
-9. 🌟 [Credits](#credits)
+4. 🪪 [License](#license)
+5. 📞 [Contact](#contact)
+6. 🌟 [Credits](#credits)
 
 
 </details>
