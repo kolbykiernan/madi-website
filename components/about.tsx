@@ -34,7 +34,7 @@ export default function About() {
         <span className="italic">My favorite part of programming</span>{" "} is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack is{" "}
-        <span className="font-medium"> JavaScript </span> specifically, {" "}
+        <span className="font-medium"> JavaScript, </span> specifically {" "}
         <span className="font-medium">React Native, React.js, Next.js, and Node.js</span>
         . I am also familiar with <span className="font-medium">TypeScript</span>,{" "} 
         <span className="font-medium">Python3</span>, and many other languages, frameworks, and databases. 
