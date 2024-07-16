@@ -22,7 +22,7 @@ export default function About() {
         <p className='mb-3'>
         Born and raised in <span className="font-medium">Anaheim, CA</span>, 
         I went to college at <span className="font-medium">San Diego State University</span>{" "}
-        where I pursued <span className="font-medium">Army ROTC</span>{" "} and graduated with a <span className="font-medium">bachelor's</span> in{" "}
+        where I pursued <span className="font-medium">Army ROTC</span>{" "} and graduated with a <span className="font-medium">bachelor&apos;s</span> in{" "}
         <span className="font-medium">Economics</span>. I decided to pivot away from the military and worked in {" "}
         <span className="font-medium">Health/Wellness</span>, <span className="font-medium">Distribution</span>,
         and then <span className="font-medium">SaaS</span> and <span className="font-medium">Fintech</span>{" "}
@@ -38,13 +38,12 @@ export default function About() {
         <span className="font-medium">React Native, React.js, Next.js, and Node.js</span>
         . I am also familiar with <span className="font-medium">TypeScript</span>,{" "} 
         <span className="font-medium">Python3</span>, and many other languages, frameworks, and databases. 
-      I am always looking to
-        learn new technologies and am currently looking for a{" "}
+        I am always looking to learn new technologies and am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
         </p>
         <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing beach volleyball 🏐,
+        <span className="italic">When I&apos;m not coding</span>, I enjoy playing beach volleyball 🏐,
         distance running 🏃, lifting weights 🏋️, golfing🏌️, tennis 🎾, snowboarding 🏂, cooking 🧑‍🍳, camping 🏕️, lake trips 🚤, playing guitar 🎸, singing 🎵, and listening to records 🎧. I am also a{" "}
         <span className="font-medium">Certified Specialist of Wine 🍷</span>, enjoy
         learning about{" "}
