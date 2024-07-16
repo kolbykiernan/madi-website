@@ -58,6 +58,6 @@ Kolby Kiernan: kolbykiernan@gmail.com
 Project Link: [https://kolbykiernan.vercel.app/](https://kolbykiernan.vercel.app/)
 
 ## 🌟 Credits
-* Inspired by [Byte Grad](https://github.com/ByteGrad))
+* Inspired by [Byte Grad](https://github.com/ByteGrad)
 
 
