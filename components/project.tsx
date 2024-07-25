@@ -23,7 +23,7 @@ export default function Project({ title, description, tags, imageUrl, url }: Pro
                 scale: scaleProgress,
                 opacity: opacityProgress,
             }}
-            className='group mb-3 sm:mb-8 last:mb-0 '
+            className='group mb-3 sm:mb-8 last:mb-0'
         >
             {url ? (
                 <a href={url} target="_blank" rel="noopener noreferrer">
