@@ -101,7 +101,7 @@ export const projectsData: Project[] = [
       "A web app to create and manage a wedding guest list by categorizing and assigning values for guests, then comparing that to venue capacity and desired attendance.",
     tags: ["React", "Express.js", "Node.js", "PostgreSQL", "React-Bootstrap"],
     imageUrl: The_Nest,
-    url: "https://welcome-to-the-nest.onrender.com/"
+    url: "https://welcome-to-the-nest-irdb.onrender.com/"
   },
   {
     title: "Aora",
