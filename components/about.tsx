@@ -39,8 +39,8 @@ export default function About() {
         . I am also familiar with <span className="font-medium">TypeScript</span>,{" "} 
         <span className="font-medium">Python3</span>, and many other languages, frameworks, and databases. 
         I am always looking to learn new technologies and am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium">full-time position</span> as a Software
+        Developer or Sales Engineer.
         </p>
         <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy playing beach volleyball 🏐,
