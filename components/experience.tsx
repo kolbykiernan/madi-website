@@ -43,6 +43,7 @@ export default function Experience() {
                                     : "rgba(255, 255, 255, 0.15)",
                                 fontSize: "1.5rem",
                             }}
+                            icon={item.icon}
                         >
                             <div
                                 onClick={() => item.url && window.open(item.url, "_blank")}
