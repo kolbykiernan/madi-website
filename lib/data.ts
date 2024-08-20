@@ -43,6 +43,7 @@ export const experiencesData = [
       "Received a bachelor's in Economics. Extracurriculars included: Army ROTC and Sigma Alpha Epsilon fraternity.",
     icon: React.createElement(LuGraduationCap),
     date: "2013-2017",
+    url: "https://www.sdsu.edu/",
   },
   {
     title: "Sales Coordinator @ Medikeeper",
@@ -51,6 +52,7 @@ export const experiencesData = [
       "Collaborated with the sales and marketing teams to source new business at a health and wellness SaaS startup.",
     icon: React.createElement(CgWorkAlt),
     date: "2017 - 2018",
+    url: "https://www.medikeeper.com/",
   },
   {
     title: "Sales Rep -> District Manager @ Gallo Wine Co.",
@@ -59,6 +61,7 @@ export const experiencesData = [
       "Managed the sales and distribution of wine and spirits for a team of 12, covering 200 drug and grocery stores.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2021",
+    url: "https://www.gallo.com/",
   },
   {
     title: "Account Executive @ Boulevard",
@@ -67,6 +70,7 @@ export const experiencesData = [
       "Worked with the sales and engineering teams at a Series C beauty and wellness SaaS company to find and present technical solutions to prospects and customers, increasing retention and reducing turnover.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2024",
+    url: "https://joinblvd.com",
   },
   {
     title: "San Diego State University",
@@ -75,6 +79,7 @@ export const experiencesData = [
       "While at Boulevard, I completed a full-stack Software Development Bootcamp, earning a certificate of completion. However, most of my knowledge comes from self-teaching through books, online courses, podcasts, and YouTube.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - 2024",
+    url: "https://www.sdsu.edu/",
   },
   {
     title: "The Nest",
@@ -83,6 +88,7 @@ export const experiencesData = [
       "While completing my program, I began freelance work on 'The Nest,' a wedding-focused app for a stealth startup, which I am currently developing. I am now seeking full-time employment.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
+    url: "https://welcome-to-the-nest-irdb.onrender.com/"
   },
 ] as const;
 
