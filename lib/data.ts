@@ -64,7 +64,7 @@ export const experiencesData = [
     url: "https://www.gallo.com/",
   },
   {
-    title: "Account Executive @ Boulevard",
+    title: "Sales Engineer / Account Executive @ Boulevard",
     location: "Los Angeles, CA",
     description:
       "Worked with the sales and engineering teams at a Series C beauty and wellness SaaS company to find and present technical solutions to prospects and customers, increasing retention and reducing turnover.",
