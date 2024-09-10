@@ -69,9 +69,8 @@ export default function Intro() {
             <span className="font-bold">Hello, I&apos;m Kolby Kiernan.</span> I&apos;m a {" "}
             <span className="font-bold">Full-Stack Developer</span> and {" "}
             <span className="font-bold">Sales Engineer</span> with {" "}
-            <span className="font-bold">2 years</span> of experience. I enjoy being part of a team that builds and sells {" "}
-            <span className="italic">innovative and meaningful apps.</span> I specialize in {" "}
-            <span className="underline">JavaScript / TypeScript / React / React Native</span>.    
+            <span className="font-bold">2 years</span> of experience. I specialize in {" "}
+            <span className="italic">JavaScript / TypeScript / React / React Native</span>.    
         </motion.h1>
         <motion.div 
             className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
