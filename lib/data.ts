@@ -122,7 +122,7 @@ export const projectsData: Project[] = [
   {
     title: "Todo List",
     description:
-      "This to-do list app lets users easily manage tasks with a drag-and-drop interface, offering task creation, editing, prioritization, and scheduling across 'Todo,' 'In Progress,' and 'Done' columns",
+      "This to-do list app allows easy task management with drag-and-drop, creation, editing, and prioritization across columns.",
     tags: ["React", "Framer-Motion", "Tailwind CSS", "Vercel"],
     imageUrl: Todo_List,
     url: "https://todo-list-healthie.vercel.app/"
