@@ -6,6 +6,7 @@ import Aora from "@/public/Aora.png";
 import Rest_Rant from "@/public/Rest-Rant.png";
 import Guitar_Guru from "@/public/Guitar_Guru.png";
 import My_Portfolio from "@/public/My_Portfolio.png";
+import Todo_List from "@/public/Todo_List.png";
 import { StaticImageData } from "next/image";
 
 export const links = [
@@ -117,6 +118,15 @@ export const projectsData: Project[] = [
     tags: ["React Native", "Animatable", "Expo", "NativeWind", "Appwrite"],
     imageUrl: Aora,
     url: "https://www.loom.com/share/2893ba797ca94f9cad732159f9fd48ac?sid=a8ca8ed4-1f07-4c4b-b10e-f6084c84470d"
+  },
+  {
+    title: "Todo List",
+    description:
+      "This to-do list app lets users easily manage tasks with a drag-and-drop interface, offering task creation, editing, prioritization, and scheduling across 'Todo,' 'In Progress,' and 'Done' columns",
+    tags: ["React", "Framer-Motion", "Tailwind CSS", "Vercel"],
+    imageUrl: Todo_List,
+    url: "https://todo-list-healthie.vercel.app/"
+  
   },
   {
     title: "My Portfolio",
