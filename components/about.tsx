@@ -27,20 +27,18 @@ export default function About() {
         <span className="font-medium">Health/Wellness</span>, <span className="font-medium">Distribution</span>,
         and then <span className="font-medium">SaaS</span> and <span className="font-medium">Fintech</span>{" "}
         when I started to be immersed by <span className="font-medium">software</span>{" "} 
-        that was making a difference for thousands of people. {" "}
+        that was making a difference for others. {" "}
         <span className="font-medium">This sparked my passion</span> in the world of programming,
         so I returned to <span className="font-medium">San Diego State</span> {" "}
         to learn how to become a proficient <span className="font-medium">full-stack software developer</span>.{" "}
         <span className="italic">My favorite part of programming</span>{" "} is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack is{" "}
-        <span className="font-medium"> JavaScript, </span> specifically {" "}
-        <span className="font-medium">React Native, React.js, Next.js, and Node.js</span>
-        . I am also familiar with <span className="font-medium">TypeScript</span>,{" "} 
-        <span className="font-medium">Python3</span>, and many other languages, frameworks, and databases. 
-        I am always looking to learn new technologies and am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a Software
-        Developer or Sales Engineer.
+        <span className="font-medium"> TypeScript, React, Graphql and Ruby. </span>
+        I am also familiar with <span className="font-medium">Python, React Native, Next, Node.js</span>,{" "} 
+        and many other languages, frameworks, and databases. 
+        I am currently a full-time, contracted Software Engineer at {" "}
+        <span className="font-medium">Healthie</span>.
         </p>
         <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy playing beach volleyball 🏐,

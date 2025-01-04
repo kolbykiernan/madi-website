@@ -83,13 +83,13 @@ export const experiencesData = [
     url: "https://www.sdsu.edu/",
   },
   {
-    title: "The Nest",
-    location: "Remote",
+    title: "Software Engineer @ Healthie",
+    location: "Los Angeles, CA",
     description:
-      "While completing my program, I began freelance work on 'The Nest,' a wedding-focused app for a stealth startup, which I am currently developing. I am now seeking full-time employment.",
+      "I currently work on Healthie's Internal Tools team, developing full-stack tools to support other teams, optimize workflows, and enhance operational efficiency. Healthie is an all-in-one practice management platform and EHR tailored for health and wellness providers and their clients.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
-    url: "https://welcome-to-the-nest-irdb.onrender.com/"
+    date: "2024 - current",
+    url: "https://www.gethealthie.com/"
   },
 ] as const;
 
@@ -98,7 +98,7 @@ export type Project = {
   description: string;
   tags: string[];
   imageUrl: StaticImageData;
-  url?: string;  // Make url optional
+  url?: string;
 };
 
 export const projectsData: Project[] = [
@@ -168,6 +168,8 @@ export const skillsData = [
   "TypeScript",
   "React Native",
   "Expo Go",
+  "Ruby",
+  "GraphQL",
   "React",
   "Redux",
   "Next.js",
@@ -191,6 +193,8 @@ export const skillsData = [
   "Agile | SCRUM",
   "Jira",
   "Confluence",
+  "Notion",
+  "Shortcut",
   "Salesforce",
   "Data Structures",
   "Algorithms",
