@@ -38,7 +38,11 @@ export default function About() {
         I am also familiar with <span className="font-medium">Python, React Native, Next, Node.js</span>,{" "} 
         and many other languages, frameworks, and databases. 
         I am currently a full-time, contracted Software Engineer at {" "}
-        <span className="font-medium">Healthie</span>.
+        <span className="font-medium italic hover:cursor-pointer bg-gradient-to-r from-purple-500 via-blue-900 via-blue-700 via-blue-400 to-cyan-300 bg-clip-text text-transparent relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-gradient-to-r after:from-purple-500 after:via-blue-900 after:via-blue-700 after:via-blue-400 after:to-cyan-300 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+          <a href="https://www.gethealthie.com/" target="_blank" rel="noopener noreferrer">
+            Healthie
+          </a>  
+        </span>.
         </p>
         <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy playing beach volleyball 🏐,
