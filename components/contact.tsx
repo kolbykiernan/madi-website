@@ -31,16 +31,29 @@ export default function Contact() {
         }}
     >
     <SectionHeading>Contact Me</SectionHeading>
-    <p className='text-gray-700 -mt-6 dark:text-white/80'> 
-        Please contact me directly at{" "}
+    <div className="mt-6 text-center text-lg text-gray-900 dark:text-white">
+    <p>Feel free to reach out to me directly:</p>
+
+    <div className="mt-3 text-xl font-medium">
         <a 
-            className='underline'
-            href='mailto:kolbykiernan@gmail.com'
+            href="mailto:madisonhearnetherapy@gmail.com" 
+            className="hover:underline cursor-pointer"
         >
-        kolbykiernan@gmail.com
-        </a> {" "}
-        or through this form.
-    </p>
+            madisonhearnetherapy@gmail.com
+        </a> 
+        <span className="mx-3 text-gray-500">|</span>
+        <a 
+            href="tel:+14244429183"
+            className="hover:underline cursor-pointer"
+        >
+            (424) 442-9183
+        </a>
+    </div>
+
+    <p className="mt-4 text-gray-700 dark:text-white/80">Or reach out via the contact form.</p>
+</div>
+
+
     <form 
         className='mt-10 flex flex-col dark:text-black'
         action={async (formData) => {

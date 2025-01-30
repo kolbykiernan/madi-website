@@ -19,16 +19,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Focus",
+    hash: "#focus",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Pricing",
+    hash: "#pricing",
   },
   {
     name: "Contact",
@@ -36,171 +36,30 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "San Diego State University",
-    location: "San Diego, CA",
-    description:
-      "Received a bachelor's in Economics. Extracurriculars included: Army ROTC and Sigma Alpha Epsilon fraternity.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2013-2017",
-    url: "https://www.sdsu.edu/",
-  },
-  {
-    title: "Sales Coordinator @ Medikeeper",
-    location: "San Diego, CA",
-    description:
-      "Collaborated with the sales and marketing teams to source new business at a health and wellness SaaS startup.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2017 - 2018",
-    url: "https://www.medikeeper.com/",
-  },
-  {
-    title: "Sales Rep -> District Manager @ Gallo Wine Co.",
-    location: "Los Angeles, CA",
-    description:
-      "Managed the sales and distribution of wine and spirits for a team of 12, covering 200 drug and grocery stores.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2021",
-    url: "https://www.gallo.com/",
-  },
-  {
-    title: "Sales Engineer / Account Executive @ Boulevard",
-    location: "Los Angeles, CA",
-    description:
-      "Worked with the sales and engineering teams at a Series C beauty and wellness SaaS company to find and present technical solutions to prospects and customers, increasing retention and reducing turnover.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2024",
-    url: "https://joinblvd.com",
-  },
-  {
-    title: "San Diego State University",
-    location: "Online",
-    description:
-      "While at Boulevard, I completed a full-stack Software Development Bootcamp, earning a certificate of completion. However, most of my knowledge comes from self-teaching through books, online courses, podcasts, and YouTube.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023 - 2024",
-    url: "https://www.sdsu.edu/",
-  },
-  {
-    title: "Software Engineer @ Healthie",
-    location: "Los Angeles, CA",
-    description:
-      "I currently work on Healthie's Internal Tools team, developing full-stack tools to support other teams, optimize workflows, and enhance operational efficiency. Healthie is an all-in-one practice management platform and EHR tailored for health and wellness providers and their clients.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024 - current",
-    url: "https://www.gethealthie.com/"
-  },
-] as const;
-
-export type Project = {
-  title: string;
-  description: string;
-  tags: string[];
-  imageUrl: StaticImageData;
-  url?: string;
-};
-
-export const projectsData: Project[] = [
-  {
-    title: "The Nest",
-    description:
-      "A web app to create and manage a wedding guest list by categorizing and assigning values for guests, then comparing that to venue capacity and desired attendance.",
-    tags: ["React", "Express.js", "Node.js", "PostgreSQL", "React-Bootstrap"],
-    imageUrl: The_Nest,
-    url: "https://welcome-to-the-nest-irdb.onrender.com/"
-  },
-  {
-    title: "Aora",
-    description:
-      "A mobile app that allows users to upload and view videos, bookmark favorites, and join a community of digital content sharing.", 
-
-    tags: ["React Native", "Animatable", "Expo", "NativeWind", "Appwrite"],
-    imageUrl: Aora,
-    url: "https://www.loom.com/share/2893ba797ca94f9cad732159f9fd48ac?sid=a8ca8ed4-1f07-4c4b-b10e-f6084c84470d"
-  },
-  {
-    title: "Todo List",
-    description:
-      "This to-do list app allows easy task management with drag-and-drop, creation, editing, and prioritization across columns.",
-    tags: ["React", "Framer-Motion", "Tailwind CSS", "Vercel"],
-    imageUrl: Todo_List,
-    url: "https://todo-list-healthie.vercel.app/"
-  
-  },
-  {
-    title: "My Portfolio",
-    description:
-      "My portfolio was a fun project that I couldn't leave out!",
-    tags: ["React", "Next.js", "TypeScript", "Framer-Motion", "Tailwind CSS", "Vercel"],
-    imageUrl: My_Portfolio,
-  
-  },
-  {
-    title: "Guitar Guru",
-    description:
-      "A browser-based interactive experience where users learn the basics of music through piano and guitar.",
-    tags: ["TypeScript", "Sass", "HTML"],
-    imageUrl: Guitar_Guru,
-    url: "https://kolbykiernan.github.io/Guitar-Guru/"
-  },
-  {
-    title: "Rest-Rant",
-    description:
-      "A web app that allows users to share, rank, and comment on their favorite restaurants",
-    tags: ["React", "Express.js", "Node.js", "MongoDB", "Bcrypt"],
-    imageUrl: Rest_Rant,
-    url: "https://rest-rant-27u0.onrender.com/"
-  }
-] as const;
-
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "Sass",
-  "Adobe",
-  "Figma",
-  "Tailwind",
-  "Bootstrap",
-  "Material UI",
-  "Framer Motion",
-  "JavaScript",
-  "TypeScript",
-  "React Native",
-  "Expo Go",
-  "Ruby",
-  "GraphQL",
-  "React",
-  "Redux",
-  "Next.js",
-  "Node.js",
-  "Express",
-  "Python3",
-  "Flask",
-  "MongoDB", 
-  "PostgreSQL",
-  "Appwrite",
-  "AWS",
-  "Vercel",
-  "Jest",
-  "Cybersecurity",
-  "OAuth2",
-  "JWT",
-  "Bcrypt",
-  "MVC Frameworks",
-  "AJAX",
-  "REST Operations",
-  "Agile | SCRUM",
-  "Jira",
-  "Confluence",
-  "Notion",
-  "Shortcut",
-  "Salesforce",
-  "Data Structures",
-  "Algorithms",
-  "Object Oriented Programming",
-  "Git",
-  "Sales",
-  "Management",
-  "Public Speaking",
+ "Active Listening",
+"Empathy & Compassion",
+"Rapport Building",
+"Crisis Intervention",
+"Psychoeducation",
+"Trauma-Informed Care",
+"Strength-Based Approach",
+"Mindfulness & Emotional Regulation",
+"Cultural Competency",
+"Cognitive Behavioral Therapy (CBT)",
+"Dialectical Behavior Therapy (DBT)",
+"Acceptance and Commitment Therapy (ACT)",
+"Trauma-Focused CBT (TF-CBT)",
+"Play Therapy",
+"Family Systems Therapy",
+"Person-Centered Therapy",
+"Motivational Interviewing (MI)",
+"Mindfulness-Based Stress Reduction (MBSR)",
+"Solution-Focused Brief Therapy (SFBT)",
+"Coping Skills Training",
+"Anxiety & Mood Disorders",
+"PTSD & Trauma Work",
+"Grief & Loss Counseling",
+"LGBTQ+ Affirming Therapy",
+"Life Transitions & Adjustment Issues",
 ] as const;

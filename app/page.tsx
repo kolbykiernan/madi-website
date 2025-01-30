@@ -2,10 +2,11 @@
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import About from "@/components/about";
-import Projects from "@/components/projects";
+import Pricing from "@/components/pricing";
 import Skills from "@/components/skills";
-import Experience from "@/components/experience";
+
 import Contact from "@/components/contact";
+import Focus from "@/components/focus";
 
 export default function Home() {
   return (
@@ -13,9 +14,9 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      <Projects />
+      <Focus />
       <Skills />
-      <Experience />
+      <Pricing />
       <Contact />
     </main>
   );

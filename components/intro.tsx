@@ -5,10 +5,7 @@ import Image from 'next/image'
 import Headshot from '../public/Headshot.jpeg'
 import { motion } from "framer-motion";
 import Link from 'next/link'
-import { BsArrowRight } from "react-icons/bs";
-import { HiDownload } from 'react-icons/hi';
-import { BsLinkedin } from 'react-icons/bs';
-import { FaGithubSquare } from 'react-icons/fa';
+import { BsArrowDown } from "react-icons/bs";
 
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
@@ -38,13 +35,13 @@ export default function Intro() {
                     }}
                 >
                     <Image 
-                        src={Headshot} alt="Kolby's professional headshot"
+                        src={Headshot} alt="Madi's professional headshot"
                         width="192"
                         height="192"
                         quality="100"
                         priority={true}
-                        className='h-24 w-24 rounded-full object-cover border-[.35rem] border-white shadow-xl transform scale-110'
-                    />
+                        className='h-48 w-48 rounded-full object-cover object-[50%_20%] border-[.35rem] border-white shadow-xl transform scale-110'
+                        />
                 </motion.div>
                 <motion.span 
                     className='absolute bottom-0 right-0 text-4xl'
@@ -66,10 +63,9 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100}}
             animate={{ opacity: 1, y: 0}}
         >
-            <span className="font-bold">Hello, I&apos;m Kolby Kiernan.</span> I&apos;m a {" "}
-            <span className="font-bold">Full-Stack Developer</span> with {" "}
-            <span className="font-bold">2 years</span> of experience. I specialize in {" "}
-            <span className="italic">TypeScript, React, GraphQL, and Ruby</span>.    
+           <div className="text-5xl font-serif italic"> Madison Hearne, LCSW</div>
+           <br/>
+           <div className="text-3xl font-serif italic"> Providing services for children, teens, and families in California</div>
         </motion.h1>
         <motion.div 
             className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -88,30 +84,9 @@ export default function Intro() {
                     setTimeOfLastClick(Date.now());
                 }}
             >
-                Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+                Contact me here <BsArrowDown className="opacity-70 group-hover:translate-x-1 transition" />
             </Link>
             
-            <a 
-                className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-gray-300 dark:bg-white/10"
-                href="/Resume.pdf" download={true}
-            >
-                Download Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-            </a>
-
-            <div className="flex gap-4">
-                <a 
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-gray-300 dark:bg-white/10 dark:text-white/60"
-                    href="https://www.linkedin.com/in/kolby-kiernan" target="_blank"
-                >
-                    <BsLinkedin />
-                </a>
-                <a 
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-gray-300 dark:bg-white/10 dark:text-white/60"
-                    href="https://github.com/kolbykiernan" target="_blank"
-                >
-                    <FaGithubSquare />
-                </a>
-            </div>
         </div>
         </motion.div>
 
