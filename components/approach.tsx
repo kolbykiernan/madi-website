@@ -51,7 +51,7 @@ export default function MyApproach() {
           </p>
           <ul className="list-disc pl-6">
             <li><strong>Creative & Fun Activities:</strong> Art, games, and role-playing to make therapy engaging.</li>
-            <li><strong>Relevant & Real Conversations:</strong> Therapy isn't just talking—it’s applying what we learn.</li>
+            <li><strong>Relevant & Real Conversations:</strong> Therapy isn&apos;t just talking—it’s applying what we learn.</li>
             <li><strong>Support for Big Feelings:</strong> Helping with stress, social anxiety, and family changes.</li>
           </ul>
         </motion.div>
