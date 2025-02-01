@@ -8,7 +8,7 @@ export default function Footer() {
             Madison Hearne, LCSW, #127093 | Therapy for Children, Teens, and Families
         </small>
         <div className="text-xs flex justify-center gap-4">
-          <Link className="font-semibold" href="/hipaanotification">HIPAA Notification</Link>
+          {/* <Link className="font-semibold" href="/hipaanotification">HIPAA Notification</Link> */}
           <div>
             <span>Website by:</span> {""}
             <a className="font-semibold" href="https://github.com/kolbykiernan">Kolby Kiernan</a>

@@ -32,7 +32,7 @@ export default function Contact() {
     >
     <SectionHeading>Contact Me</SectionHeading>
     <div className="mt-6 text-center text-lg text-gray-900 dark:text-white">
-    <p>Feel free to reach out to me directly:</p>
+    <p>Feel free to reach out to me directly to schedule an appointment or consultation:</p>
 
     <div className="mt-3 text-xl font-medium">
         <a 
