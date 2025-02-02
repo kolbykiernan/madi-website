@@ -3,24 +3,33 @@
 import React from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
-import { useSectionInView } from "@/lib/hooks";
+import { useInView } from "react-intersection-observer";
 
 export default function MyApproach() {
-  const { ref } = useSectionInView("Approach", 0.5);
+  const { ref, inView } = useInView({
+    threshold: 0.3, // Trigger when 30% of the section is visible
+    triggerOnce: true, // Animation runs only once
+  });
 
   return (
-    <section ref={ref} id="my-approach" className="scroll-mt-28 mb-28">
+    <motion.section
+      ref={ref}
+      id="my-approach"
+      className="scroll-mt-28 mb-28"
+      initial={{ opacity: 0, y: 50 }}
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
       <SectionHeading>My Approach</SectionHeading>
 
-      {/* Centered Grid Container */}
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
         
-        {/* Card 1 - Tailored Therapy */}
         <motion.div
           className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+          whileHover={{ scale: 1.05 }}
         >
           <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
             Tailored Therapy for Children & Teens
@@ -36,12 +45,12 @@ export default function MyApproach() {
           </ul>
         </motion.div>
 
-        {/* Card 2 - How Therapy Sessions Work */}
         <motion.div
           className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+          whileHover={{ scale: 1.05 }}
         >
           <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
             How Therapy Sessions Work
@@ -56,12 +65,12 @@ export default function MyApproach() {
           </ul>
         </motion.div>
 
-        {/* Card 3 - Who I Work With */}
         <motion.div
           className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
+          whileHover={{ scale: 1.05 }}
         >
           <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
             Who I Work With
@@ -79,12 +88,12 @@ export default function MyApproach() {
           </ul>
         </motion.div>
 
-        {/* Card 4 - For Parents */}
         <motion.div
           className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
+          whileHover={{ scale: 1.05 }}
         >
           <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
             For Parents: What You Can Expect
@@ -94,18 +103,16 @@ export default function MyApproach() {
           </p>
           <p>Need extra support? I also offer <strong>parent sessions</strong> to help you navigate your child’s growth.</p>
         </motion.div>
-
       </div>
 
-      {/* Closing Statement */}
       <motion.p
         className="text-lg font-semibold mt-8 text-gray-900 dark:text-white text-center max-w-3xl mx-auto"
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.2, ease: "easeOut", delay: 0.4 }}
+        animate={inView ? { opacity: 1 } : { opacity: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut", delay: 0.5 }}
       >
         Therapy isn’t just about managing struggles—it’s about <strong>helping kids and teens thrive.</strong>
       </motion.p>
-    </section>
+    </motion.section>
   );
 }
