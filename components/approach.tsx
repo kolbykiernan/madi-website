@@ -1,20 +1,29 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 import { useInView } from "react-intersection-observer";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function MyApproach() {
-  const { ref, inView } = useInView({
-    threshold: 0.3, // Trigger when 30% of the section is visible
-    triggerOnce: true, // Animation runs only once
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const { ref: inViewRef, inView } = useInView({
+    threshold: 0.3,
+    triggerOnce: true,
   });
+  const { ref: sectionInViewRef } = useSectionInView("Approach");
+
+  const combinedRef = (el: HTMLElement | null) => {
+    inViewRef(el);
+    sectionInViewRef(el);
+    sectionRef.current = el;
+  };
 
   return (
     <motion.section
-      ref={ref}
-      id="my-approach"
+      ref={combinedRef}
+      id="approach"
       className="scroll-mt-28 mb-28"
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
@@ -22,8 +31,16 @@ export default function MyApproach() {
     >
       <SectionHeading>My Approach</SectionHeading>
 
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-        
+      <motion.p
+        className="text-lg font-semibold mt-8 text-gray-900 dark:text-white text-center max-w-3xl mx-auto"
+        initial={{ opacity: 0 }}
+        animate={inView ? { opacity: 1 } : { opacity: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut", delay: 0.5 }}
+      >
+        Therapy isn’t just about managing struggles—it’s about <strong>helping kids and teens thrive.</strong>
+      </motion.p>
+
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">        
         <motion.div
           className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
@@ -35,7 +52,7 @@ export default function MyApproach() {
             Tailored Therapy for Children & Teens
           </h3>
           <p className="mb-4">
-            Whether your child is dealing with <strong>anxiety, depression, trauma, social challenges, or stress</strong>, I create sessions that match their needs and interests.
+            Whether your child is dealing with <strong>anxiety, depression, trauma, social challenges, or stress</strong>, I create sessions that match their needs and interests. I utilize concepts from the following modalities:
           </p>
           <ul className="list-disc pl-6">
             <li><strong>Cognitive Behavioral Therapy (CBT)</strong> – Helps kids understand and change unhelpful thoughts.</li>
@@ -105,14 +122,6 @@ export default function MyApproach() {
         </motion.div>
       </div>
 
-      <motion.p
-        className="text-lg font-semibold mt-8 text-gray-900 dark:text-white text-center max-w-3xl mx-auto"
-        initial={{ opacity: 0 }}
-        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-        transition={{ duration: 1.2, ease: "easeOut", delay: 0.5 }}
-      >
-        Therapy isn’t just about managing struggles—it’s about <strong>helping kids and teens thrive.</strong>
-      </motion.p>
     </motion.section>
   );
 }

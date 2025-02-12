@@ -9,7 +9,7 @@ import SubmitBtn from '@/components/submit-btn';
 import toast from 'react-hot-toast';
 
 export default function Contact() {
-    const { ref } = useSectionInView('Contact', .5);
+    const { ref } = useSectionInView('Contact');
     
 
   return (
@@ -32,7 +32,7 @@ export default function Contact() {
     >
     <SectionHeading>Contact Me</SectionHeading>
     <div className="mt-6 text-center text-lg text-gray-900 dark:text-white">
-    <p>Feel free to reach out to me directly to schedule an appointment or consultation:</p>
+    <p>Please reach out to me directly to schedule an appointment or free consultation:</p>
 
     <div className="mt-3 text-xl font-medium">
         <a 

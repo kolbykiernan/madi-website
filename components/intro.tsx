@@ -11,7 +11,7 @@ import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
-    const { ref } = useSectionInView('Home', .5);
+    const { ref } = useSectionInView('Home');
     const { 
         setActiveSection,
         setTimeOfLastClick,
@@ -35,7 +35,8 @@ export default function Intro() {
                     }}
                 >
                     <Image 
-                        src={Headshot} alt="Madi's professional headshot"
+                        src={Headshot} 
+                        alt="Madi's professional headshot"
                         width="192"
                         height="192"
                         quality="100"

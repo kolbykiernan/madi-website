@@ -11,8 +11,8 @@ export default function Home() {
     <main className="flex flex-col items-center px-4">
       <Intro />
       <SectionDivider />
-      <About />
       <MyApproach />
+      <About />
       <Pricing />
       <Contact />
     </main>

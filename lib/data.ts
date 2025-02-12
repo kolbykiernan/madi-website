@@ -4,12 +4,12 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
-  },
-  {
     name: "Approach",
     hash: "#approach",
+  },
+  {
+    name: "About",
+    hash: "#about",
   },
   {
     name: "Pricing",
