@@ -65,9 +65,13 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100}}
             animate={{ opacity: 1, y: 0}}
         >
-           <div className="text-5xl font-serif italic"> Madison Hearne, LCSW</div>
-           <br/>
-           <div className="text-3xl font-serif italic"> Providing services for children, teens, and families in California</div>
+            <div className="text-3xl sm:text-5xl font-serif italic text-center">
+                Madison Hearne, LCSW
+            </div>
+            <br />
+            <div className="text-lg sm:text-3xl font-serif italic text-center">
+                Providing services for children, teens, and families in California
+            </div>
         </motion.h1>
         <motion.div 
             className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

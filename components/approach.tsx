@@ -42,7 +42,7 @@ export default function MyApproach() {
 
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">        
         <motion.div
-          className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
+          className="text-sm sm:text-base bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
@@ -63,7 +63,7 @@ export default function MyApproach() {
         </motion.div>
 
         <motion.div
-          className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
+          className="text-sm sm:text-base bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
@@ -83,7 +83,7 @@ export default function MyApproach() {
         </motion.div>
 
         <motion.div
-          className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
+          className="text-sm sm:text-base bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
@@ -106,7 +106,7 @@ export default function MyApproach() {
         </motion.div>
 
         <motion.div
-          className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
+          className="text-sm sm:text-base bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}

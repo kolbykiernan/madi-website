@@ -31,8 +31,7 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
 
-      <p className="text-base sm:text-lg lg:text-xl font-serif italic tracking-wide leading-relaxed space-y-4 sm:space-y-6">
-        I have always been deeply interested in human connection and the ways people navigate their personal struggles.
+      <p className="text-sm sm:text-base lg:text-xl font-serif italic tracking-wide leading-relaxed sm:leading-loose lg:leading-[1.5rem] xl:leading-[2.2rem]">        I have always been deeply interested in human connection and the ways people navigate their personal struggles.
         <br /><br />
         What attracted me to a career as a <span className="font-bold">Licensed Clinical Social Worker</span> is the opportunity to create a meaningful, supportive, and empowering space where individuals can heal, grow, and explore their full potential.
         <br /><br />

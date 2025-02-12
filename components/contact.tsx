@@ -31,7 +31,7 @@ export default function Contact() {
         }}
     >
     <SectionHeading>Contact Me</SectionHeading>
-    <div className="mt-6 text-center text-lg text-gray-900 dark:text-white">
+    <div className="mt-6 text-center text-base sm:text-lg lg:text-xl text-gray-900 dark:text-white">
     <p>Please reach out to me directly to schedule an appointment or free consultation:</p>
 
     <div className="mt-3 text-xl font-medium">
