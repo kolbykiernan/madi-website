@@ -88,7 +88,7 @@ export default function Pricing() {
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
           >
-            Madi Hearne, LCSW is an out-of-network provider and does not accept insurance. However, I can provide a superbill that you can submit to your insurance provider for potential reimbursement.
+            Madison Hearne, LCSW is an out-of-network provider and does not accept insurance. However, I can provide a superbill that you can submit to your insurance provider for potential reimbursement.
           </motion.p>
 
           <br />
