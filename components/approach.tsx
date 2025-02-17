@@ -37,7 +37,7 @@ export default function MyApproach() {
         animate={inView ? { opacity: 1 } : { opacity: 0 }}
         transition={{ duration: 1.2, ease: "easeOut", delay: 0.5 }}
       >
-        Therapy isn’t just about managing struggles—it’s about <strong>helping kids and teens thrive.</strong>
+        Therapy isn’t just about managing struggles—it’s about <strong>helping people thrive.</strong>
       </motion.p>
 
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">        
@@ -92,7 +92,7 @@ export default function MyApproach() {
           <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
             Who I Work With
           </h3>
-          <p className="mb-4">I specialize in helping kids and teens who experience:</p>
+          <p className="mb-4">I specialize in helping kids, teens, and young adults who experience:</p>
           <ul className="list-disc pl-6">
             <li>Anxiety or worry</li>
             <li>Depression or sadness</li>

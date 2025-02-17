@@ -70,7 +70,7 @@ export default function Intro() {
             </div>
             <br />
             <div className="text-lg sm:text-3xl font-serif italic text-center">
-                Providing services for children, teens, and families in California
+                Providing services for children, teens, and young adults in California
             </div>
         </motion.h1>
         <motion.div 
